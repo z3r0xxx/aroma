@@ -3,6 +3,7 @@
 $pages = array(
     "page_main" 	=> 43,
     "page_shop" 	=> 70,
+	"blog_page"		=> 72,
 	"page_contacts" => 74,
 );
 
@@ -23,7 +24,16 @@ if ( $page_id == 43 ) {
 
 } elseif ( $page_id == 74 ) {
 	get_header(); 
-	echo "Тут будут контакты";
+	get_template_part( 
+		$slug = "template-parts/contacts"
+	);
+	get_footer(); 
+
+} elseif ( $page_id == 72 ) {
+	get_header(); 
+	get_template_part( 
+		$slug = "template-parts/blog"
+	);
 	get_footer(); 
 
 } else {
