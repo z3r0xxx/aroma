@@ -109,7 +109,7 @@
 							</aside>
 
 							<aside class="single_sidebar_widget author_widget">
-								<img class="author_img rounded-circle" src="img/blog/author.png" alt="">
+								<img class="author_img rounded-circle" src="<?php bloginfo('template_directory') ?>/img/blog/author.png" alt="">
 								<h4>Charlie Barber</h4>
 								<p>Senior blog writer</p>
 								<div class="social_icon">
