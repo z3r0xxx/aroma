@@ -483,8 +483,6 @@
 			<!-- ================ Subscribe section end ================= -->
 		</main>
 
-		<?php get_footer(); ?>
-
 		<script src="<?php bloginfo('template_directory') ?>/vendors/jquery/jquery-3.2.1.min.js"></script>
 		<script src="<?php bloginfo('template_directory') ?>/vendors/bootstrap/bootstrap.bundle.min.js"></script>
 		<script src="<?php bloginfo('template_directory') ?>/vendors/skrollr.min.js"></script>
