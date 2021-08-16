@@ -3,6 +3,7 @@
 	<div class="footer-area">
 		<div class="container">
 			<div class="row section_gap">
+
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="single-footer-widget tp_widgets">
 						<h4 class="footer_title large_title">Our Mission</h4>
@@ -15,6 +16,7 @@
 						</p>
 					</div>
 				</div>
+
 				<div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6">
 					<div class="single-footer-widget tp_widgets">
 						<h4 class="footer_title">Quick Links</h4>
@@ -28,6 +30,7 @@
 						</ul>
 					</div>
 				</div>
+
 				<div class="col-lg-2 col-md-6 col-sm-6">
 					<div class="single-footer-widget instafeed">
 						<h4 class="footer_title">Gallery</h4>
@@ -41,6 +44,7 @@
 						</ul>
 					</div>
 				</div>
+
 				<div class="offset-lg-1 col-lg-3 col-md-6 col-sm-6">
 					<div class="single-footer-widget tp_widgets">
 						<h4 class="footer_title">Contact Us</h4>
@@ -60,6 +64,7 @@
 						</div>
 					</div>
 				</div>
+				
 			</div>
 		</div>
 	</div>
@@ -68,9 +73,8 @@
 		<div class="container">
 			<div class="row d-flex">
 				<p class="col-lg-12 footer-text text-center">
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-me. Бренд одежды &copy;<script>document.write(new Date().getFullYear());</script> Все права защищены. | Создано с помощью <i class="fa fa-heart" aria-hidden="true"></i> <a href="https://colorlib.com" target="_blank">Colorlib</a>
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+					me. &copy;<script>document.write(new Date().getFullYear());</script> Все права защищены.
+				</p>
 			</div>
 		</div>
 	</div>
