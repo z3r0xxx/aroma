@@ -21,6 +21,11 @@ if ( $page_id == 43 ) {
 	echo "Тут будет магазин";
 	get_footer(); 
 
+} elseif ( $page_id == 74 ) {
+	get_header(); 
+	echo "Тут будут контакты";
+	get_footer(); 
+
 } else {
 	get_header(); 
 	the_post(); 
