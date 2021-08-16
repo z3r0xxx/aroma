@@ -20,6 +20,8 @@
 	<body>
 		
 		<?php get_header(); ?>
+		<?php the_post(); ?>
+		<?php the_content(); ?>
 
 		<main class="site-main">
 
@@ -69,13 +71,6 @@
 							<p>Accessories Item</p>
 						</a>
 					</div>
-					<div class="hero-carousel__slide">
-						<img src="<?php bloginfo('template_directory') ?>/img/home/hero-slide3.png" alt="" class="img-fluid">
-						<a href="#" class="hero-carousel__slideOverlay">
-							<h3>Wireless Headphone</h3>
-							<p>Accessories Item</p>
-						</a>
-					</div>
 				</div>
 			</section>
 			<!--================ Hero Carousel end =================-->
@@ -84,8 +79,8 @@
 			<section class="section-margin calc-60px">
 				<div class="container">
 					<div class="section-intro pb-60px">
-						<p>Popular Item in the market</p>
-						<h2>Trending <span class="section-intro__style">Product</span></h2>
+						<!-- <p>Popular Item in the market</p> -->
+						<h2>Наши <span class="section-intro__style">Продукты</span></h2>
 					</div>
 					<div class="row">
 						<div class="col-md-6 col-lg-4 col-xl-3">
@@ -236,7 +231,6 @@
 				</div>
 			</section>
 			<!-- ================ trending product section end ================= -->  
-
 
 			<!-- ================ offer section start ================= --> 
 			<section class="offer" id="parallax-1" data-anchor-target="#parallax-1" data-300-top="background-position: 20px 30px" data-top-bottom="background-position: 0 20px">
@@ -402,7 +396,7 @@
 			<!-- ================ Best Selling item  carousel end ================= --> 
 
 			<!-- ================ Blog section start ================= -->  
-			<section class="blog">
+			<!-- <section class="blog">
 				<div class="container">
 
 					<div class="section-intro pb-60px">
@@ -464,7 +458,7 @@
 						
 					</div>
 				</div>
-			</section>
+			</section> -->
 			<!-- ================ Blog section end ================= -->  
 
 			<!-- ================ Subscribe section start ================= --> 
