@@ -179,12 +179,15 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 }
 
 // Добавляем классы элементам <li>
-add_filter('nav_menu_css_class', 'add_additional_class_on_li', 1, 3);
-function add_additional_class_on_li($classes, $item, $args) {
-    if(isset($args->add_li_class)) {
-        $classes[] = $args->add_li_class;
-    }
-    return $classes;
+add_filter( 'nav_menu_css_class', 'filter_nav_menu_css_classes', 10, 4 );
+function filter_nav_menu_css_classes( $classes, $item, $args, $depth ) {
+	$classes = ['nav-item'];
+
+	if ( $item->current ) {
+		$classes[] .= ' active';
+	}
+
+	return $classes;
 }
 
 // Добавляем классы элементам <a>
