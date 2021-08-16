@@ -196,3 +196,11 @@ function filter_nav_menu_link_attributes( $atts, $item, $args, $depth ) {
 	$atts['class'] = 'nav-link';
     return $atts;
 }
+
+// правильный способ подключить стили и скрипты
+add_action( 'wp_enqueue_scripts', 'theme_name_scripts' );
+// add_action('wp_print_styles', 'theme_name_scripts'); // можно использовать этот хук он более поздний
+function theme_name_scripts() {
+	wp_enqueue_style( 'style-name', 'css/style.css' );
+	wp_enqueue_script( 'script-name', get_template_directory_uri() . '/js/example.js', array(), '1.0.0', true );
+}
