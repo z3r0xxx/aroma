@@ -95,7 +95,7 @@
                     </div>
 
                     <div class="col-md-8 col-lg-9">
-                        <form action="#/" class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                        <form action="<?php bloginfo('template_directory') ?>/contact_form.php" class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
                             <div class="row">
                                 <div class="col-lg-5">
                                     <div class="form-group">
