@@ -155,6 +155,7 @@
 
 									$product_name = get_the_title();
 									$product_permalink = get_permalink();
+									$product_price = $product->get_price();
 								?>
 									<div class="col-md-6 col-lg-4">
 										<div class="card text-center card-product">
@@ -168,8 +169,8 @@
 											</div>
 											<div class="card-body">
 												<p>Футболки</p>
-												<h4 class="card-product__title"><a href="<?php $product_permalink; ?>"><?php echo $product_name; ?></a></h4>
-												<p class="card-product__price">$150.00</p>
+												<h4 class="card-product__title"><a href="<?php echo $product_permalink; ?>"><?php echo $product_name; ?></a></h4>
+												<p class="card-product__price">$<?php echo $product_price; ?></p>
 											</div>
 										</div>
 									</div>
@@ -193,6 +194,7 @@
 
 									$product_name = get_the_title();
 									$product_permalink = get_permalink();
+									$product_price = $product->get_price();
 									
 								?>
 									<div class="col-md-6 col-lg-4">
@@ -207,8 +209,8 @@
 										</div>
 										<div class="card-body">
 											<p>Худи</p>
-											<h4 class="card-product__title"><a href="<?php $product_permalink; ?>"><?php echo $product_name; ?></a></h4>
-											<p class="card-product__price">$150.00</p>
+											<h4 class="card-product__title"><a href="<?php echo $product_permalink; ?>"><?php echo $product_name; ?></a></h4>
+											<p class="card-product__price">$<?php echo $product_price; ?></p>
 										</div>
 										</div>
 									</div>
@@ -232,7 +234,7 @@
 
 									$product_name = get_the_title();
 									$product_permalink = get_permalink();
-									$product_thumbnail = the_post_thumbnail_url();
+									$product_price = $product->get_price();
 								?>
 									<div class="col-md-6 col-lg-4">
 										<div class="card text-center card-product">
@@ -246,8 +248,8 @@
 										</div>
 										<div class="card-body">
 											<p>Свитшоты</p>
-											<h4 class="card-product__title"><a href="#"><?php echo $product_name; ?></a></h4>
-											<p class="card-product__price">$150.00</p>
+											<h4 class="card-product__title"><a href="<?php echo $product_permalink; ?>"><?php echo $product_name; ?></a></h4>
+											<p class="card-product__price">$<?php echo $product_price; ?></p>
 										</div>
 										</div>
 									</div>
@@ -271,7 +273,7 @@
 
 									$product_name = get_the_title();
 									$product_permalink = get_permalink();
-									$product_thumbnail = the_post_thumbnail_url();
+									$product_price = $product->get_price();
 								?>
 									<div class="col-md-6 col-lg-4">
 										<div class="card text-center card-product">
@@ -285,8 +287,8 @@
 											</div>
 											<div class="card-body">
 												<p>Носочки</p>
-												<h4 class="card-product__title"><a href="#"><?php echo $product_name; ?></a></h4>
-												<p class="card-product__price">$150.00</p>
+												<h4 class="card-product__title"><a href="<?php echo $product_permalink; ?>"><?php echo $product_name; ?></a></h4>
+												<p class="card-product__price">$<?php echo $product_price; ?></p>
 											</div>
 										</div>
 									</div>
