@@ -20,24 +20,6 @@
     </head>
 
     <body>
-
-        <?php
-            global $post;
-            $postslist = get_posts( array( 'posts_per_page' => 2, 'category'=>'news' ) );
-            foreach ( $postslist as $post ){
-                setup_postdata($post);
-            ?>
-                <div>
-                    <?php echo the_date(); ?> - выводит дату новости 
-                    <?php echo the_title(); ?> - выводит заголовок новости
-                    <?php echo the_excerpt(); ?> - выводит краткое описание 
-                    <?php echo the_post_thumbnail(); ?> - выводит превью новости - картинку 
-                </div>
-            <?php 
-            }
-            wp_reset_postdata();  
-        ?>
-
         <!-- ================ start banner area ================= -->
         <section class="blog-banner-area" id="contact">
             <div class="container h-100">
