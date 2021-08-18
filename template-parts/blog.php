@@ -128,7 +128,8 @@
 							<aside class="single_sidebar_widget popular_post_widget">
 								<h3 class="widget_title">Popular Posts</h3>
 
-								<div class="media post_item">
+								<h5>N/A</h5>
+								<!-- <div class="media post_item">
 									<img src="img/blog/popular-post/post1.jpg" alt="post">
 									<div class="media-body">
 										<a href="single-blog.html"><h3>Space The Final Frontier</h3></a>
@@ -158,16 +159,13 @@
 										<a href="single-blog.html"><h3>Asteroids telescope</h3></a>
 										<p>01 Hours ago</p>
 									</div>
-								</div>
+								</div> -->
 
 								<div class="br"></div>
 							</aside>
 
-							<!-- AD BANNER!!! -->
-							<aside class="single_sidebar_widget ads_widget">
-								<a href="#"><img class="img-fluid" src="img/blog/add.jpg" alt=""></a>
-								<div class="br"></div>
-							</aside>
+							<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/img/blog/add.jpg" alt="">
+							<div class="br"></div>
 
 							<aside class="single-sidebar-widget newsletter_widget">
 								<h4 class="widget_title">Newsletter</h4>
