@@ -37,7 +37,7 @@
 			</div>
 		</section>
 
-		<?php post_class(); ?>
+		<?php get_post_type(); ?>
 		<!--================Blog Area =================-->
 		<section class="blog_area single-post-area py-80px section-margin--small">
 			<div class="container">
@@ -202,28 +202,7 @@
 											</div>
 									</div>
 							</div>
-					</div>
-					<div class="comment-form">
-							<h4>Leave a Reply</h4>
-							<form>
-									<div class="form-group form-inline">
-											<div class="form-group col-lg-6 col-md-6 name">
-													<input type="text" class="form-control" id="name" placeholder="Enter Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Name'">
-											</div>
-											<div class="form-group col-lg-6 col-md-6 email">
-													<input type="email" class="form-control" id="email" placeholder="Enter email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'">
-											</div>
-									</div>
-									<div class="form-group">
-											<input type="text" class="form-control" id="subject" placeholder="Subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Subject'">
-									</div>
-									<div class="form-group">
-											<textarea class="form-control mb-10" rows="5" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'"
-													required=""></textarea>
-									</div>
-									<a href="#" class="button button-postComment button--active">Post Comment</a>
-							</form>
-					</div>
+					</div>	
 					</div>
 
 					<div class="col-lg-4">
@@ -324,60 +303,6 @@
 				</div>
 			</div>
 		</section>
-
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php
-		if ( is_singular() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		endif;
-
-		if ( 'post' === get_post_type() ) :
-			?>
-			<div class="entry-meta">
-				<?php
-				aroma_posted_on();
-				aroma_posted_by();
-				?>
-			</div><!-- .entry-meta -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
-
-	<?php aroma_post_thumbnail(); ?>
-
-	<div class="entry-content">
-		<?php
-		the_content(
-			sprintf(
-				wp_kses(
-					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'aroma' ),
-					array(
-						'span' => array(
-							'class' => array(),
-						),
-					)
-				),
-				wp_kses_post( get_the_title() )
-			)
-		);
-
-		wp_link_pages(
-			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'aroma' ),
-				'after'  => '</div>',
-			)
-		);
-		?>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<?php aroma_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-<?php the_ID(); ?> -->
-
 
 		<script src="<?php bloginfo('template_directory') ?>/vendors/jquery/jquery-3.2.1.min.js"></script>
 		<script src="<?php bloginfo('template_directory') ?>/vendors/bootstrap/bootstrap.bundle.min.js"></script>
