@@ -1,60 +1,56 @@
-<?php
-/**
- * The template for displaying 404 pages (not found)
- *
- * @link https://codex.wordpress.org/Creating_an_Error_404_Page
- *
- * @package Aroma
- */
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-get_header();
-?>
+		<title>me - Главная</title>
 
-	<main id="primary" class="site-main">
+		<link rel="icon" href="<?php bloginfo('template_directory') ?>/img/Fevicon.png" type="image/png">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/css/style.css">
 
-		<section class="error-404 not-found">
-			<header class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'aroma' ); ?></h1>
-			</header><!-- .page-header -->
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/vendors/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/vendors/fontawesome/css/all.min.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/vendors/themify-icons/themify-icons.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/vendors/nice-select/nice-select.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/vendors/owl-carousel/owl.theme.default.min.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/vendors/owl-carousel/owl.carousel.min.css">
+	</head>
+	<body>
 
-			<div class="page-content">
-				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'aroma' ); ?></p>
+		<main class="site-main">
 
-					<?php
-					get_search_form();
+			<!--================ Hero banner start =================-->
+			<section class="hero-banner">
+				<div class="container">
+					<div class="row no-gutters align-items-center pt-60px">
+						<div class="col-5 d-none d-sm-block">
+							<div class="hero-banner__img">
+								<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/img/home/hero-banner.png" alt="">
+							</div>
+						</div>
+						<div class="col-sm-7 col-lg-6 offset-lg-1 pl-4 pl-md-5 pl-lg-0">
+							<div class="hero-banner__content">
+								<h1>404</h1>
+								<p>Указанная Вами страница не найдена :(</p>
+								<a class="button button-hero" href="#">ВЕРНУТЬСЯ</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--================ Hero banner start =================-->
 
-					the_widget( 'WP_Widget_Recent_Posts' );
-					?>
+		</main>
 
-					<div class="widget widget_categories">
-						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'aroma' ); ?></h2>
-						<ul>
-							<?php
-							wp_list_categories(
-								array(
-									'orderby'    => 'count',
-									'order'      => 'DESC',
-									'show_count' => 1,
-									'title_li'   => '',
-									'number'     => 10,
-								)
-							);
-							?>
-						</ul>
-					</div><!-- .widget -->
-
-					<?php
-					/* translators: %1$s: smiley */
-					$aroma_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'aroma' ), convert_smilies( ':)' ) ) . '</p>';
-					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$aroma_archive_content" );
-
-					the_widget( 'WP_Widget_Tag_Cloud' );
-					?>
-
-			</div><!-- .page-content -->
-		</section><!-- .error-404 -->
-
-	</main><!-- #main -->
-
-<?php
-get_footer();
+		<script src="<?php bloginfo('template_directory') ?>/vendors/jquery/jquery-3.2.1.min.js"></script>
+		<script src="<?php bloginfo('template_directory') ?>/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+		<script src="<?php bloginfo('template_directory') ?>/vendors/skrollr.min.js"></script>
+		<script src="<?php bloginfo('template_directory') ?>/vendors/owl-carousel/owl.carousel.min.js"></script>
+		<script src="<?php bloginfo('template_directory') ?>/vendors/nice-select/jquery.nice-select.min.js"></script>
+		<script src="<?php bloginfo('template_directory') ?>/vendors/jquery.ajaxchimp.min.js"></script>
+		<script src="<?php bloginfo('template_directory') ?>/vendors/mail-script.js"></script>
+		<script src="<?php bloginfo('template_directory') ?>/js/main.js"></script>
+	</body>
+</html>
