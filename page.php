@@ -19,7 +19,9 @@ if ( $page_id == 43 ) {
 
 } elseif ( $page_id == 70 ) {
 	get_header(); 
-	echo "Тут будет магазин";
+	get_template_part( 
+		$slug = "template-parts/shop", 'category'
+	);
 	get_footer(); 
 
 } elseif ( $page_id == 74 ) {
