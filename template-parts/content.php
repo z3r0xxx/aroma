@@ -21,6 +21,15 @@
 
 	<body>
 
+		<?php $post_type = get_post_type(); 
+		if ($post_type = "product") {
+
+			get_template_part( 
+				$slug = "template-parts/product"
+			);
+		
+		} else { ?>
+
 		<section class="blog-banner-area" id="blog">
 			<div class="container h-100">
 				<div class="blog-banner">
@@ -37,7 +46,6 @@
 			</div>
 		</section>
 
-		<?php get_post_type(); ?>
 		<!--================Blog Area =================-->
 		<section class="blog_area single-post-area py-80px section-margin--small">
 			<div class="container">
@@ -303,6 +311,8 @@
 				</div>
 			</div>
 		</section>
+
+		<?php } ?>
 
 		<script src="<?php bloginfo('template_directory') ?>/vendors/jquery/jquery-3.2.1.min.js"></script>
 		<script src="<?php bloginfo('template_directory') ?>/vendors/bootstrap/bootstrap.bundle.min.js"></script>
