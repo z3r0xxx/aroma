@@ -21,27 +21,36 @@
 
 	<body>
 
-
   		<!--================Single Product Area =================-->
 		<div class="product_image_area">
 			<div class="container">
 				<div class="row s_product_inner">
 
+						<?php 
+							
+							global $product; 
+
+							$product_name = get_the_title();
+							$product_permalink = get_permalink();
+							$product_price = $product->get_price();
+
+						?>
+
 					<div class="col-lg-6">
 						<div class="owl-carousel owl-theme s_Product_carousel">
 							<div class="single-prd-item">
-								<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/img/category/s-p1.jpg" alt="">
+								<img class="img-fluid" src="<?php the_post_thumbnail_url(); ?>" alt="">
 							</div>
 						</div>
 					</div>
 
 					<div class="col-lg-5 offset-lg-1">
 						<div class="s_product_text">
-							<h3>Faded SkyBlu Denim Jeans</h3>
-							<h2>$149.99</h2>
+							<h3><?php echo $product_name; ?></h3>
+							<h2>$<?php echo $product_price; ?></h2>
 							<ul class="list">
-								<li><a class="active" href="#"><span>Category</span> : Household</a></li>
-								<li><a href="#"><span>Availibility</span> : In Stock</a></li>
+								<li><a class="active" href="#"><span>Category :</span> Household</a></li>
+								<li><a href="#"><span>Availibility :</span> In Stock</a></li>
 							</ul>
 							<p> Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for
 								something that can make your interior look awesome, and at the same time give you the pleasant warm feeling
