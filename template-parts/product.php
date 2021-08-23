@@ -50,7 +50,7 @@
 							<h2>$<?php echo $product_price; ?></h2>
 							<ul class="list">
 								<li><a class="active" href="#"><span>Category :</span> 123</a></li>
-								<li><a href="#"><span>Availibility :</span> In Stock</a></li>
+								<li><a><span>Availibility :</span> в наличии</a></li>
 							</ul>
 							<p> Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for
 								something that can make your interior look awesome, and at the same time give you the pleasant warm feeling
