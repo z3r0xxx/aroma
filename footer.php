@@ -13,7 +13,7 @@
 
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="single-footer-widget tp_widgets">
-						<h4 class="footer_title large_title">Our Mission</h4>
+						<h4 class="footer_title large_title">НАША МИССИЯ</h4>
 						<p>
 							So seed seed green that winged cattle in. Gathering thing made fly you're no 
 							divided deep moved us lan Gathering thing us land years living.
@@ -26,7 +26,7 @@
 
 				<div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6">
 					<div class="single-footer-widget tp_widgets">
-						<h4 class="footer_title">Quick Links</h4>
+						<h4 class="footer_title">Полезные ссылки</h4>
 						<ul class="list">
 							<li><a href="#">Home</a></li>
 							<li><a href="#">Shop</a></li>
@@ -40,7 +40,7 @@
 
 				<div class="col-lg-2 col-md-6 col-sm-6">
 					<div class="single-footer-widget instafeed">
-						<h4 class="footer_title">Gallery</h4>
+						<h4 class="footer_title">Галерея</h4>
 						<ul class="list instafeed d-flex flex-wrap">
 							<li><img src="<?php bloginfo('template_directory') ?>/img/gallery/r1.jpg" alt=""></li>
 							<li><img src="<?php bloginfo('template_directory') ?>/img/gallery/r2.jpg" alt=""></li>
@@ -54,16 +54,16 @@
 
 				<div class="offset-lg-1 col-lg-3 col-md-6 col-sm-6">
 					<div class="single-footer-widget tp_widgets">
-						<h4 class="footer_title">Contact Us</h4>
+						<h4 class="footer_title">Контакты</h4>
 						<div class="ml-40">
-							<p class="sm-head"><span class="fa fa-location-arrow"></span>Head Office</p>
+							<p class="sm-head"><span class="fa fa-location-arrow"></span>Адрес</p>
 							<p>123, Main Street, Your City</p>
-							<p class="sm-head"><span class="fa fa-phone"></span>Phone Number</p>
+							<p class="sm-head"><span class="fa fa-phone"></span>Телефон</p>
 							<p>
 								+123 456 7890 <br>
 								+123 456 7890
 							</p>
-							<p class="sm-head"><span class="fa fa-envelope"></span>Email</p>
+							<p class="sm-head"><span class="fa fa-envelope"></span>E-mail</p>
 							<p>
 								free@infoexample.com <br>
 								www.infoexample.com
