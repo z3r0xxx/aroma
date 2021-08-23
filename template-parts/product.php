@@ -49,7 +49,7 @@
 							<h3><?php echo $product_name; ?></h3>
 							<h2>$<?php echo $product_price; ?></h2>
 							<ul class="list">
-								<li><a class="active" href="#"><span>Category :</span> Household</a></li>
+								<li><a class="active" href="#"><span>Category :</span> 123</a></li>
 								<li><a href="#"><span>Availibility :</span> In Stock</a></li>
 							</ul>
 							<p> Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for
@@ -72,8 +72,8 @@
 			<div class="container">
 
 				<ul class="nav nav-tabs" id="myTab" role="tablist">
-					<li class="nav-item"><a class="nav-link active" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review" aria-selected="false">Description</a></li>
-					<li class="nav-item"><a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Specification</a></li>
+					<li class="nav-item"><a class="nav-link active" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review" aria-selected="false">Описание</a></li>
+					<li class="nav-item"><a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Характеристики</a></li>
 				</ul>
 
 				<div class="tab-content" id="myTabContent">
