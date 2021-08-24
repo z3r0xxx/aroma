@@ -2,12 +2,13 @@
 
 $pages = array(
     "page_main" 	=> 43,
-    "page_shop" 	=> 70,
+    "page_shop" 	=> 139,
 	"blog_page"		=> 72,
 	"page_contacts" => 74,
 );
 
 $page_id = get_the_ID();
+echo ''.$page_id;
 if ( $page_id == 43 ) {
 	get_header(); 
 	get_template_part( 
@@ -17,7 +18,8 @@ if ( $page_id == 43 ) {
 	);
 	get_footer(); 
 
-} elseif ( $page_id == 70 ) {
+} elseif ( $page_id == 139 ) {
+
 	get_header(); 
 	get_template_part( 
 		$slug = "template-parts/shop", 'category'
@@ -25,6 +27,7 @@ if ( $page_id == 43 ) {
 	get_footer(); 
 
 } elseif ( $page_id == 74 ) {
+
 	get_header(); 
 	get_template_part( 
 		$slug = "template-parts/contacts"
@@ -32,6 +35,7 @@ if ( $page_id == 43 ) {
 	get_footer(); 
 
 } elseif ( $page_id == 72 ) {
+
 	get_header(); 
 	get_template_part( 
 		$slug = "template-parts/blog"
@@ -39,6 +43,7 @@ if ( $page_id == 43 ) {
 	get_footer(); 
 
 } else {
+
 	get_header(); 
 	the_post(); 
 	the_content(); 
