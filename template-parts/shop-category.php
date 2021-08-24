@@ -44,7 +44,7 @@
 			<div class="container">
 				<div class="row">
 
-					<div class="col-xl-3 col-lg-4 col-md-5">
+					<!-- <div class="col-xl-3 col-lg-4 col-md-5">
 
 						<div class="sidebar-categories">
 							<div class="head">Категории</div>
@@ -61,7 +61,7 @@
 									</li>
 								</ul>
 							</div>
-					</div>
+					</div> -->
 						<!--
 						<div class="sidebar-filter">
 							<div class="top-filter-head">Product Filters</div>
