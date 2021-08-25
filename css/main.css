@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:400,500,600");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+@import url("https://fonts.googleapis.com/css?family=Tenor+Sans");
 body
 {
 color:#777;
-font-family:"Roboto",sans-serif;
+font-family: 'Tenor Sans';
 font-size:15px;
 font-weight:400;
 line-height:1.667
@@ -1006,7 +1007,7 @@ color:#384aeb
 }
 .offer
 {
-background:url("../img/home/parallax-bg.png") right center no-repeat;
+background:url("../img/banner.jpg") right center no-repeat;
 background-size:cover
 }
 @media (min-width: 1200px)
