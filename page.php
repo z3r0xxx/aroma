@@ -3,7 +3,7 @@
 $pages = array(
     "page_main" 	=> 43,
     "page_shop" 	=> 139,
-	"blog_page"		=> 72,
+	"blog_page"		=> 164,
 	"page_contacts" => 74,
 );
 
@@ -34,7 +34,7 @@ if ( $page_id == 43 ) {
 	);
 	get_footer(); 
 
-} elseif ( $page_id == 72 ) {
+} elseif ( $page_id == 164 ) {
 
 	get_header(); 
 	get_template_part( 
