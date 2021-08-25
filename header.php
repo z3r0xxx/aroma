@@ -12,7 +12,7 @@
 	  	<nav class="navbar navbar-expand-lg navbar-light">
 
 			<div class="container">
-				<a class="navbar-brand logo_h"><img src="<?php bloginfo('template_directory') ?>/img/logo.png" alt=""></a>
+				<a class="navbar-brand logo_h" style="margin-right: -100;"><img src="<?php bloginfo('template_directory') ?>/img/logo.png" alt="" style="width: 10%; height: 10%;"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="icon-bar"></span>
@@ -23,7 +23,7 @@
 				<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 					<?php wp_nav_menu( [
 							'theme_location'  => '',
-							'menu'            => '',
+							'menu'            => 'main_menu',
 							'container'       => 'ul',
 							'container_class' => '',
 							'container_id'    => '',
