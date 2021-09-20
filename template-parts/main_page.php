@@ -1,3 +1,15 @@
+<!--
+	1 ВЕРСИЯ:
+		текст - b470fa
+		фон футера - 002347
+		фон копирайта - rgba(0,35,71,0.980392)
+
+	2 ВЕРСИЯ:
+		текст - 
+		фон футера - 
+		фон копирайта - 
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -16,32 +28,62 @@
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/vendors/nice-select/nice-select.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/vendors/owl-carousel/owl.theme.default.min.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/vendors/owl-carousel/owl.carousel.min.css">
+
+		<link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+
+		<style>
+			.site-main {
+				font-family: 'Tenor Sans';
+			}
+
+			.hero-banner__content h4 {
+				font-family: 'Tenor Sans';
+			}
+		</style>
 	</head>
 	<body>
 
 		<main class="site-main">
 
 			<!--================ Hero banner start =================-->
-			<section class="hero-banner">
+			<!-- <section class="hero-banner">
 				<div class="container">
 					<div class="row no-gutters align-items-center pt-60px">
 						<div class="col-5 d-none d-sm-block">
 							<div class="hero-banner__img">
-								<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/img/home/hero-banner.png" alt="">
+								<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/img/home/hero-banner1.png" alt="">
 							</div>
 						</div>
 						<div class="col-sm-7 col-lg-6 offset-lg-1 pl-4 pl-md-5 pl-lg-0">
 							<div class="hero-banner__content">
-								<h4>Shop is fun</h4>
-								<h1><?php bloginfo('name'); ?></h1>
-								<p>Us which over of signs divide dominion deep fill bring they're meat beho upon own earth without morning over third. Their male dry. They are great appear whose land fly grass.</p>
-								<a class="button button-hero" href="#">Browse Now</a>
+								<h4>Люби себя.</h4>
+								<p>Свобода быть собой. Проявить свою уникальность, творить свой собственный мир. Понимать и принимать себя. Уважать и ценить других. Любить себя и любить жизнь. Мечтать и воплощать. Быть только мной. Открыто и искренне говорить миру - это я. It's Me.</p>
+								<a class="button button-hero" href="shop">ПОСМОТРЕТЬ</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section> -->
+			<!--================ Hero banner start =================-->
+
+			<section class="hero-banner" id="parallax-1" data-anchor-target="#parallax-1" data-300-top="background-position: 20px 30px" data-top-bottom="background-position: 0 20px">
+				<div class="container" style="margin-left: -50;">
+					<div class="row no-gutters align-items-center pt-60px" style="padding-top: 150;">
+						<!-- <div class="col-5 d-none d-sm-block">
+							<div class="hero-banner__img">
+								<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/img/home/hero-banner2.png" style="height: 359;">
+							</div>
+						</div> -->
+						<div class="col-sm-7" style="color: #fff; padding: 50; margin-left: 50px; margin-top: 230;">
+							<div class="hero-banner__content">
+								<h4 style="font-weight: 600; color: #fff;">Люби себя.</h4>
+								<p style="font-size: 15px;">Свобода быть собой. Проявить свою уникальность, творить свой собственный мир. Понимать и принимать себя. Уважать и ценить других. Любить себя и любить жизнь. Мечтать и воплощать. Быть только мной. Открыто и искренне говорить миру - это я. It's Me.</p>
+								<a class="button button-hero" href="shop">ПОСМОТРЕТЬ</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<!--================ Hero banner start =================-->
 
 			<!--================ Hero Carousel start =================-->
 			<section class="section-margin mt-0">
@@ -71,158 +113,81 @@
 			</section>
 			<!--================ Hero Carousel end =================-->
 
-			<!-- ================ trending product section start ================= -->  
-			<section class="section-margin calc-60px">
+			<section class="section-margin calc-60px" style="margin-bottom: -100">
 				<div class="container">
 					<div class="section-intro pb-60px">
 						<!-- <p>Popular Item in the market</p> -->
-						<h2>Наши <span class="section-intro__style">Продукты</span></h2>
+						<h2>Наша <span class="section-intro__style">ФИЛОСОФИЯ</span></h2>
+						<style>
+							p {
+								margin-top: 20px;
+								margin-bottom: 20px;
+							}
+						</style>
+						<p style="margin-bottom: 20px; margin-top: 40px;">ME. Моя жизнь - моя свобода и ответственность. Моя смелость быть собой. День за днем я хочу быть в хорошем настроении, получать и дарить любовь, расти духовно и интеллектуально, испытывать еще больше радости. Я хочу дать миру то, что внутри меня - смелость, креативность, честность, силу моего духа. Я мечтаю о лучшем и большем. Я заявляю открыто о себе и встречаю таких же прекрасных искренних людей. Мы разные, каждый уникален и неповторим. ME - философия моей свободы и уникальности без ограничений. ME - я люблю себя.</p>
+						<p>Каждый день команда me. создает коллекцию эксклюзивных новинок для тебя . С каждым заказом ты получаешь подарки от бренда. Специальная программа лояльности для тебя, которая действует всегда. Именно ты выбираешь уникальность и стоимость.</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- ================ trending product section start ================= -->  
+
+			<style>
+				.hueta {
+					max-width: 1600px;
+					width: 100%;
+					padding-right: 15px;
+					padding-left: 15px;
+					margin-right: auto;
+					margin-left: auto;
+				}
+			</style>
+
+			<section class="section-margin calc-60px">
+				<div class="hueta">
+					<div class="section-intro pb-60px" style="max-width: 1140px; width: 100%;
+					padding-right: 15px;
+					padding-left: 15px;
+					margin-right: auto;
+					margin-left: auto;">
+						<!-- <p>Popular Item in the market</p> -->
+						<h2>Купи <span class="section-intro__style">СЕГОДНЯ</span></h2>
 					</div>
 					<div class="row">
-						<div class="col-md-6 col-lg-4 col-xl-3">
-							<div class="card text-center card-product">
-								<div class="card-product__img">
-									<img class="card-img" src="<?php bloginfo('template_directory') ?>/img/product/product1.png" alt="">
-									<ul class="card-product__imgOverlay">
-										<li><button><i class="ti-search"></i></button></li>
-										<li><button><i class="ti-shopping-cart"></i></button></li>
-										<li><button><i class="ti-heart"></i></button></li>
-									</ul>
-								</div>
-								<div class="card-body">
-									<p>Accessories</p>
-									<h4 class="card-product__title"><a href="single-product.html">Quartz Belt Watch</a></h4>
-									<p class="card-product__price">$150.00</p>
-								</div>
-							</div>
-						</div>
 
-						<div class="col-md-6 col-lg-4 col-xl-3">
-							<div class="card text-center card-product">
-								<div class="card-product__img">
-									<img class="card-img" src="<?php bloginfo('template_directory') ?>/img/product/product2.png" alt="">
-									<ul class="card-product__imgOverlay">
-										<li><button><i class="ti-search"></i></button></li>
-										<li><button><i class="ti-shopping-cart"></i></button></li>
-										<li><button><i class="ti-heart"></i></button></li>
-									</ul>
-								</div>
-								<div class="card-body">
-									<p>Beauty</p>
-									<h4 class="card-product__title"><a href="single-product.html">Women Freshwash</a></h4>
-									<p class="card-product__price">$150.00</p>
-								</div>
-							</div>
-						</div>
+						<?php 
+							$args = array(
+								'post_type'      => 'product',
+								'posts_per_page' => 9,
+								'product_cat'    => 'main_page_category'
+							);
 
-						<div class="col-md-6 col-lg-4 col-xl-3">
-							<div class="card text-center card-product">
-								<div class="card-product__img">
-									<img class="card-img" src="<?php bloginfo('template_directory') ?>/img/product/product3.png" alt="">
-									<ul class="card-product__imgOverlay">
-										<li><button><i class="ti-search"></i></button></li>
-										<li><button><i class="ti-shopping-cart"></i></button></li>
-										<li><button><i class="ti-heart"></i></button></li>
-									</ul>
-								</div>
-								<div class="card-body">
-									<p>Decor</p>
-									<h4 class="card-product__title"><a href="single-product.html">Room Flash Light</a></h4>
-									<p class="card-product__price">$150.00</p>
-								</div>
-							</div>
-						</div>
+							$loop = new WP_Query( $args );
 
-						<div class="col-md-6 col-lg-4 col-xl-3">
-							<div class="card text-center card-product">
-								<div class="card-product__img">
-									<img class="card-img" src="<?php bloginfo('template_directory') ?>/img/product/product4.png" alt="">
-									<ul class="card-product__imgOverlay">
-										<li><button><i class="ti-search"></i></button></li>
-										<li><button><i class="ti-shopping-cart"></i></button></li>
-										<li><button><i class="ti-heart"></i></button></li>
-									</ul>
-								</div>
-								<div class="card-body">
-									<p>Decor</p>
-									<h4 class="card-product__title"><a href="single-product.html">Room Flash Light</a></h4>
-									<p class="card-product__price">$150.00</p>
-								</div>
-							</div>
-						</div>
+							while ( $loop->have_posts() ) : $loop->the_post();
+								global $product;
 
-						<div class="col-md-6 col-lg-4 col-xl-3">
-							<div class="card text-center card-product">
-								<div class="card-product__img">
-									<img class="card-img" src="<?php bloginfo('template_directory') ?>/img/product/product5.png" alt="">
-									<ul class="card-product__imgOverlay">
-										<li><button><i class="ti-search"></i></button></li>
-										<li><button><i class="ti-shopping-cart"></i></button></li>
-										<li><button><i class="ti-heart"></i></button></li>
-									</ul>
+								$product_name = get_the_title();
+								$product_permalink = get_permalink();
+								$product_price = $product->get_price();
+							?>
+								<!-- <div class="col-md-6 col-lg-4"> -->
+								<div class="col-xs-6 col-md-4">
+									<div class="card text-center card-product">
+										<div class="card-product__img">
+											<img class="card-img" src="<?php the_post_thumbnail_url(); ?>" alt="">
+										</div>
+										<div class="card-body">
+											<h4 class="card-product__title"><a href="<?php echo $product_permalink; ?>"><?php echo $product_name; ?></a></h4>
+											<p class="card-product__price"><?php echo $product_price; ?> </p>
+										</div>
+									</div>
 								</div>
-								<div class="card-body">
-									<p>Accessories</p>
-									<h4 class="card-product__title"><a href="single-product.html">Man Office Bag</a></h4>
-									<p class="card-product__price">$150.00</p>
-								</div>
-							</div>
-						</div>
+							<?php
+							endwhile;
 
-						<div class="col-md-6 col-lg-4 col-xl-3">
-							<div class="card text-center card-product">
-								<div class="card-product__img">
-									<img class="card-img" src="<?php bloginfo('template_directory') ?>/img/product/product6.png" alt="">
-									<ul class="card-product__imgOverlay">
-										<li><button><i class="ti-search"></i></button></li>
-										<li><button><i class="ti-shopping-cart"></i></button></li>
-										<li><button><i class="ti-heart"></i></button></li>
-									</ul>
-								</div>
-								<div class="card-body">
-									<p>Kids Toy</p>
-									<h4 class="card-product__title"><a href="single-product.html">Charging Car</a></h4>
-									<p class="card-product__price">$150.00</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 col-lg-4 col-xl-3">
-							<div class="card text-center card-product">
-								<div class="card-product__img">
-									<img class="card-img" src="<?php bloginfo('template_directory') ?>/img/product/product7.png" alt="">
-									<ul class="card-product__imgOverlay">
-										<li><button><i class="ti-search"></i></button></li>
-										<li><button><i class="ti-shopping-cart"></i></button></li>
-										<li><button><i class="ti-heart"></i></button></li>
-									</ul>
-								</div>
-								<div class="card-body">
-									<p>Accessories</p>
-									<h4 class="card-product__title"><a href="single-product.html">Blutooth Speaker</a></h4>
-									<p class="card-product__price">$150.00</p>
-								</div> 
-							</div>
-						</div>
-
-						<div class="col-md-6 col-lg-4 col-xl-3">
-							<div class="card text-center card-product">
-								<div class="card-product__img">
-									<img class="card-img" src="<?php bloginfo('template_directory') ?>/img/product/product8.png" alt="">
-									<ul class="card-product__imgOverlay">
-										<li><button><i class="ti-search"></i></button></li>
-										<li><button><i class="ti-shopping-cart"></i></button></li>
-										<li><button><i class="ti-heart"></i></button></li>
-									</ul>
-								</div>
-								<div class="card-body">
-									<p>Kids Toy</p>
-									<h4 class="card-product__title"><a href="#">Charging Car</a></h4>
-									<p class="card-product__price">$150.00</p>
-								</div>
-							</div>
-						</div>
-
+							wp_reset_query();
+						?>
 					</div>
 				</div>
 			</section>
@@ -231,14 +196,44 @@
 			<!-- ================ offer section start ================= --> 
 			<section class="offer" id="parallax-1" data-anchor-target="#parallax-1" data-300-top="background-position: 20px 30px" data-top-bottom="background-position: 0 20px">
 				<div class="container">
+					
+					<style>
+						.offer__content {
+							display: flex;
+						}
+
+						.offer__content h3 h4 p {
+							color: #fff;
+							display: flex;
+						}
+
+						.huetaimg {
+							width: 50%;
+							margin-left: 300px;
+						}
+
+						.button_hueta {
+							color: #1f6655;
+							background-color: #fff;
+							border: #fff 1px solid;
+							border-radius: 30px;
+							padding: 12px 50px;
+							transition: all .4s ease;
+						}
+						.button_hueta:hover {
+							background-color: #1f6655;
+							color: #fff;
+						}
+					</style>
 
 					<div class="row">
-						<div class="col-xl-5">
+						<div class="col-xl-5" style="margin-left: -150;">
 							<div class="offer__content text-center">
-								<h3>Up To 50% Off</h3>
-								<h4>Winter Sale</h4>
-								<p>Him she'd let them sixth saw light</p>
-								<a class="button button--active mt-3 mt-xl-4" href="#">Shop Now</a>
+								<div>
+									<h3 style="color: #fff; font-weight: 600;">ПРОГРАММА ЛОЯЛЬНОСТИ!</h3>
+									<a class="button_hueta mt-3 mt-xl-4" href="#">ОЗНАКОМИТЬСЯ</a>
+								</div>
+								<!-- <img class="huetaimg" src="<?php bloginfo('template_directory') ?>/img/pngwing.png"> -->
 							</div>
 						</div>
 					</div>
@@ -246,150 +241,6 @@
 				</div>
 			</section>
 			<!-- ================ offer section end ================= --> 
-
-			<!-- ================ Best Selling item  carousel ================= --> 
-			<section class="section-margin calc-60px">
-				<div class="container">
-
-					<div class="section-intro pb-60px">
-						<p>Popular Item in the market</p>
-						<h2>Best <span class="section-intro__style">Sellers</span></h2>
-					</div>
-
-					<div class="owl-carousel owl-theme" id="bestSellerCarousel">
-
-						<div class="card text-center card-product">
-							<div class="card-product__img">
-								<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/img/product/product1.png" alt="">
-								<ul class="card-product__imgOverlay">
-									<li><button><i class="ti-search"></i></button></li>
-									<li><button><i class="ti-shopping-cart"></i></button></li>
-									<li><button><i class="ti-heart"></i></button></li>
-								</ul>
-							</div>
-							<div class="card-body">
-								<p>Accessories</p>
-								<h4 class="card-product__title"><a href="single-product.html">Quartz Belt Watch</a></h4>
-								<p class="card-product__price">$150.00</p>
-							</div>
-						</div>
-
-						<div class="card text-center card-product">
-							<div class="card-product__img">
-								<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/img/product/product2.png" alt="">
-								<ul class="card-product__imgOverlay">
-									<li><button><i class="ti-search"></i></button></li>
-									<li><button><i class="ti-shopping-cart"></i></button></li>
-									<li><button><i class="ti-heart"></i></button></li>
-								</ul>
-							</div>
-							<div class="card-body">
-								<p>Beauty</p>
-								<h4 class="card-product__title"><a href="single-product.html">Women Freshwash</a></h4>
-								<p class="card-product__price">$150.00</p>
-							</div>
-						</div>
-
-						<div class="card text-center card-product">
-							<div class="card-product__img">
-								<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/img/product/product3.png" alt="">
-								<ul class="card-product__imgOverlay">
-									<li><button><i class="ti-search"></i></button></li>
-									<li><button><i class="ti-shopping-cart"></i></button></li>
-									<li><button><i class="ti-heart"></i></button></li>
-								</ul>
-							</div>
-							<div class="card-body">
-								<p>Decor</p>
-								<h4 class="card-product__title"><a href="single-product.html">Room Flash Light</a></h4>
-								<p class="card-product__price">$150.00</p>
-							</div>
-						</div>
-
-						<div class="card text-center card-product">
-							<div class="card-product__img">
-								<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/img/product/product4.png" alt="">
-								<ul class="card-product__imgOverlay">
-									<li><button><i class="ti-search"></i></button></li>
-									<li><button><i class="ti-shopping-cart"></i></button></li>
-									<li><button><i class="ti-heart"></i></button></li>
-								</ul>
-							</div>
-							<div class="card-body">
-								<p>Decor</p>
-								<h4 class="card-product__title"><a href="single-product.html">Room Flash Light</a></h4>
-								<p class="card-product__price">$150.00</p>
-							</div>
-						</div>
-
-						<div class="card text-center card-product">
-							<div class="card-product__img">
-								<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/img/product/product1.png" alt="">
-								<ul class="card-product__imgOverlay">
-									<li><button><i class="ti-search"></i></button></li>
-									<li><button><i class="ti-shopping-cart"></i></button></li>
-									<li><button><i class="ti-heart"></i></button></li>
-								</ul>
-							</div>
-							<div class="card-body">
-								<p>Accessories</p>
-								<h4 class="card-product__title"><a href="single-product.html">Quartz Belt Watch</a></h4>
-								<p class="card-product__price">$150.00</p>
-							</div>
-						</div>
-
-						<div class="card text-center card-product">
-							<div class="card-product__img">
-								<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/img/product/product2.png" alt="">
-								<ul class="card-product__imgOverlay">
-									<li><button><i class="ti-search"></i></button></li>
-									<li><button><i class="ti-shopping-cart"></i></button></li>
-									<li><button><i class="ti-heart"></i></button></li>
-								</ul>
-							</div>
-							<div class="card-body">
-								<p>Beauty</p>
-								<h4 class="card-product__title"><a href="single-product.html">Women Freshwash</a></h4>
-								<p class="card-product__price">$150.00</p>
-							</div>
-						</div>
-
-						<div class="card text-center card-product">
-							<div class="card-product__img">
-								<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/img/product/product3.png" alt="">
-								<ul class="card-product__imgOverlay">
-									<li><button><i class="ti-search"></i></button></li>
-									<li><button><i class="ti-shopping-cart"></i></button></li>
-									<li><button><i class="ti-heart"></i></button></li>
-								</ul>
-							</div>
-							<div class="card-body">
-								<p>Decor</p>
-								<h4 class="card-product__title"><a href="single-product.html">Room Flash Light</a></h4>
-								<p class="card-product__price">$150.00</p>
-							</div>
-						</div>
-
-						<div class="card text-center card-product">
-							<div class="card-product__img">
-								<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/img/product/product4.png" alt="">
-								<ul class="card-product__imgOverlay">
-									<li><button><i class="ti-search"></i></button></li>
-									<li><button><i class="ti-shopping-cart"></i></button></li>
-									<li><button><i class="ti-heart"></i></button></li>
-								</ul>
-							</div>
-							<div class="card-body">
-								<p>Decor</p>
-								<h4 class="card-product__title"><a href="single-product.html">Room Flash Light</a></h4>
-								<p class="card-product__price">$150.00</p>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</section>
-			<!-- ================ Best Selling item  carousel end ================= --> 
 
 			<!-- ================ Blog section start ================= -->  
 			<!-- <section class="blog">
@@ -460,24 +311,25 @@
 			<!-- ================ Subscribe section start ================= --> 
 			<section class="subscribe-position">
 				<div class="container">
-
 					<div class="subscribe text-center">
-						<h3 class="subscribe__title">Get Update From Anywhere</h3>
-						<p>Bearing Void gathering light light his eavening unto dont afraid</p>
+						<h3 class="subscribe__title">УЗНАЙ ПЕРВЫМ О НОВЫХ ПРИНТАХ</h3>
+						<p>Подпишись чтобы быть в курсе новинок!</p>
 						<div id="mc_embed_signup">
 							<form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe-form form-inline mt-5 pt-1">
 								<div class="form-group ml-sm-auto">
-									<input class="form-control mb-1" type="email" name="EMAIL" placeholder="Enter your email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '" >
+									<input class="form-control mb-1" type="email" name="EMAIL" placeholder="ТВОЯ ЭЛ. ПОЧТА" onfocus="this.placeholder = ''" onblur="this.placeholder = 'ТВОЯ ЭЛ. ПОЧТА '" >
 									<div class="info"></div>
 								</div>
-								<button class="button button-subscribe mr-auto mb-1" type="submit">Subscribe Now</button>
+								<button class="button button-subscribe mr-auto mb-1" type="submit">ПОДПИСАТЬСЯ</button>
 								<div style="position: absolute; left: -5000px;">
 									<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
 								</div>
 							</form>
 						</div>
+						<div>
+    						я соглашаюсь с <a href="privacy"> Политикой обработки персональных данных</a>
+						</div>
 					</div>
-
 				</div>
 			</section>
 			<!-- ================ Subscribe section end ================= -->
@@ -485,7 +337,6 @@
 
 		<script src="<?php bloginfo('template_directory') ?>/vendors/jquery/jquery-3.2.1.min.js"></script>
 		<script src="<?php bloginfo('template_directory') ?>/vendors/bootstrap/bootstrap.bundle.min.js"></script>
-		<script src="<?php bloginfo('template_directory') ?>/vendors/skrollr.min.js"></script>
 		<script src="<?php bloginfo('template_directory') ?>/vendors/owl-carousel/owl.carousel.min.js"></script>
 		<script src="<?php bloginfo('template_directory') ?>/vendors/nice-select/jquery.nice-select.min.js"></script>
 		<script src="<?php bloginfo('template_directory') ?>/vendors/jquery.ajaxchimp.min.js"></script>

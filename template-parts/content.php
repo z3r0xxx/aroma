@@ -1,3 +1,14 @@
+<?php 
+
+$post_type = get_post_type(); 
+if ($post_type = "product") {
+
+	get_template_part( 
+		$slug = "template-parts/product"
+	);
+
+} else { ?>
+
 <!DOCTYPE html>
 <html lang="en">
 	
@@ -6,7 +17,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-		<title>me - Контакты</title>
+		<title>me - Статья</title>
 
 		<link rel="icon" href="<?php bloginfo('template_directory') ?>/img/Fevicon.png" type="image/png">
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/css/style.css">
@@ -20,15 +31,6 @@
 	</head>
 
 	<body>
-
-		<?php $post_type = get_post_type(); 
-		if ($post_type = "product") {
-
-			get_template_part( 
-				$slug = "template-parts/product"
-			);
-		
-		} else { ?>
 
 		<section class="blog-banner-area" id="blog">
 			<div class="container h-100">
@@ -312,8 +314,6 @@
 			</div>
 		</section>
 
-		<?php } ?>
-
 		<script src="<?php bloginfo('template_directory') ?>/vendors/jquery/jquery-3.2.1.min.js"></script>
 		<script src="<?php bloginfo('template_directory') ?>/vendors/bootstrap/bootstrap.bundle.min.js"></script>
 		<script src="<?php bloginfo('template_directory') ?>/vendors/skrollr.min.js"></script>
@@ -324,3 +324,5 @@
 		<script src="<?php bloginfo('template_directory') ?>/js/main.js"></script>
 	</body>
 </html>
+
+<?php } ?>

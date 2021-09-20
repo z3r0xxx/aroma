@@ -5,6 +5,8 @@
 <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/vendors/owl-carousel/owl.theme.default.min.css">
 <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/vendors/owl-carousel/owl.carousel.min.css">
 
+<link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+
 <!--================ Start footer Area  =================-->	
 <footer class="footer">
 	<div class="footer-area">
@@ -15,24 +17,19 @@
 					<div class="single-footer-widget tp_widgets">
 						<h4 class="footer_title large_title">НАША МИССИЯ</h4>
 						<p>
-							So seed seed green that winged cattle in. Gathering thing made fly you're no 
-							divided deep moved us lan Gathering thing us land years living.
-						</p>
-						<p>
-							So seed seed green that winged cattle in. Gathering thing made fly you're no divided deep moved 
+							Одежда для тех, кто любит себя. Полная свобода быть собой.
 						</p>
 					</div>
 				</div>
 
 				<div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6">
 					<div class="single-footer-widget tp_widgets">
-						<h4 class="footer_title">Полезные ссылки</h4>
+						<h4 class="footer_title">Полезное</h4>
 						<ul class="list">
-							<li><a href="terms">Политика обработки персональных данных</a></li>
-							<li><a href="public_ofert">Публичная оферта</a></li>
-							<li><a href="FAQ">Вопросы и ответы</a></li>
-							<li><a href="shipping_and_payment">Доставка и оплата</a></li>
-							<li><a href="#">Новости</a></li>
+							<li><a href="privacy" style="font-family: 'Tenor Sans';">Политика обработки персональных данных</a></li>
+							<li><a href="offer" style="font-family: 'Tenor Sans';">Публичная оферта</a></li>
+							<li><a href="shipping_and_payment" style="font-family: 'Tenor Sans';">Доставка и оплата</a></li>
+							<li><a href="#" style="font-family: 'Tenor Sans';">Новости</a></li>
 						</ul>
 					</div>
 				</div>
@@ -63,8 +60,13 @@
 	<div class="footer-bottom">
 		<div class="container">
 			<div class="row d-flex">
-				<p class="col-lg-12 footer-text text-center">
+				<p class="col-md-6 footer-text text-center">
 					me. &copy;<script>document.write(new Date().getFullYear());</script> Все права защищены.
+				</p>
+				<p class="col-md-6 footer-text" style="color: #7b838A">
+					ИП Квасова Н. И.
+					ИНН: 781112851107 
+					ОГРН: 320784700177729 
 				</p>
 			</div>
 		</div>

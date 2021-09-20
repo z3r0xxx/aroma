@@ -121,20 +121,6 @@ add_action( 'after_setup_theme', 'aroma_content_width', 0 );
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function aroma_widgets_init() {
-	register_sidebar(
-		array(
-			'name'          => esc_html__( 'Sidebar', 'aroma' ),
-			'id'            => 'sidebar-1',
-			'description'   => esc_html__( 'Add widgets here.', 'aroma' ),
-			'before_widget' => '<section id="%1$s" class="widget %2$s">',
-			'after_widget'  => '</section>',
-			'before_title'  => '<h2 class="widget-title">',
-			'after_title'   => '</h2>',
-		)
-	);
-}
-add_action( 'widgets_init', 'aroma_widgets_init' );
 
 /**
  * Enqueue scripts and styles.
@@ -204,3 +190,26 @@ function theme_name_scripts() {
 	wp_enqueue_style( 'style-name', 'css/style.css' );
 	wp_enqueue_script( 'script-name', get_template_directory_uri() . '/js/example.js', array(), '1.0.0', true );
 }
+
+function woocommerce_product_category( $args = array() ) {
+    $woocommerce_category_id = get_queried_object_id();
+	$args = array(
+		'parent' => $woocommerce_category_id
+	);
+	$terms = get_terms( 'product_cat', $args );
+	if ( $terms ) {
+		echo '<ul class="woocommerce-categories">';
+		foreach ( $terms as $term ) {
+			echo '<li class="woocommerce-product-category-page">';
+				woocommerce_subcategory_thumbnail( $term );
+			echo '<h2>';
+			echo '<a href="' .  esc_url( get_term_link( $term ) ) . '" class="' . $term->slug . '">';
+			echo $term->name;
+			echo '</a>';
+			echo '</h2>';
+			echo '</li>';
+		}
+		echo '</ul>';
+	}
+}
+add_action( 'woocommerce_before_shop_loop', 'woocommerce_product_category', 100 );

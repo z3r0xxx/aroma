@@ -1007,7 +1007,7 @@ color:#384aeb
 }
 .offer
 {
-background:url("../img/banner.jpg") right center no-repeat;
+background:url("../img/banner1.jpg") right center no-repeat;
 background-size:cover
 }
 @media (min-width: 1200px)
@@ -4794,7 +4794,7 @@ color:#999999
 }
 .footer-area
 {
-background:#002347;
+background:#041629;
 padding:50px 0px 50px
 }
 @media (min-width: 1000px)
@@ -4903,7 +4903,7 @@ font-size:18px
 }
 .footer-bottom
 {
-background:rgba(0,35,71,0.980392);
+background:#0f2235;
 padding:32px
 }
 .footer-bottom .footer-text

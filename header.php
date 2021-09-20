@@ -19,7 +19,7 @@
 	<div class="main_menu">
 	  	<nav class="navbar navbar-expand-lg navbar-light">
 
-			<div class="container">
+			<div class="container" style="padding-right: 0;padding-left: 0;">
 				<a class="navbar-brand logo_h" style="margin-right: -100;"><img src="<?php bloginfo('template_directory') ?>/img/logo.png" alt="" style="width: 10%; height: 10%;"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
