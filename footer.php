@@ -42,8 +42,7 @@
 							<p>г. Санкт-Петербург</p>
 							<p class="sm-head"><span class="fa fa-phone"></span>Телефон</p>
 							<p>
-								+7 960 277 74 24 <br>
-								+7 950 036 27 47
+								+7 960 277 74 24
 							</p>
 							<p class="sm-head"><span class="fa fa-envelope"></span>E-mail</p>
 							<p>
