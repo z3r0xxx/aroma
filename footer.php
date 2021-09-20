@@ -29,7 +29,7 @@
 							<li><a href="privacy" style="font-family: 'Tenor Sans';">Политика обработки персональных данных</a></li>
 							<li><a href="offer" style="font-family: 'Tenor Sans';">Публичная оферта</a></li>
 							<li><a href="shipping_and_payment" style="font-family: 'Tenor Sans';">Доставка и оплата</a></li>
-							<li><a href="#" style="font-family: 'Tenor Sans';">Новости</a></li>
+							<li><a href="https://www.instagram.com/me.myfreedom/" style="font-family: 'Tenor Sans';">Новости</a></li>
 						</ul>
 					</div>
 				</div>
