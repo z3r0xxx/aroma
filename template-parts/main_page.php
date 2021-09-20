@@ -45,40 +45,14 @@
 
 		<main class="site-main">
 
-			<!--================ Hero banner start =================-->
-			<!-- <section class="hero-banner">
-				<div class="container">
-					<div class="row no-gutters align-items-center pt-60px">
-						<div class="col-5 d-none d-sm-block">
-							<div class="hero-banner__img">
-								<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/img/home/hero-banner1.png" alt="">
-							</div>
-						</div>
-						<div class="col-sm-7 col-lg-6 offset-lg-1 pl-4 pl-md-5 pl-lg-0">
-							<div class="hero-banner__content">
-								<h4>Люби себя.</h4>
-								<p>Свобода быть собой. Проявить свою уникальность, творить свой собственный мир. Понимать и принимать себя. Уважать и ценить других. Любить себя и любить жизнь. Мечтать и воплощать. Быть только мной. Открыто и искренне говорить миру - это я. It's Me.</p>
-								<a class="button button-hero" href="shop">ПОСМОТРЕТЬ</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section> -->
-			<!--================ Hero banner start =================-->
-
-			<section class="hero-banner" id="parallax-1" data-anchor-target="#parallax-1" data-300-top="background-position: 20px 30px" data-top-bottom="background-position: 0 20px">
+			<section class="hero-banner">
 				<div class="container" style="margin-left: -50;">
-					<div class="row no-gutters align-items-center pt-60px" style="padding-top: 150;">
-						<!-- <div class="col-5 d-none d-sm-block">
-							<div class="hero-banner__img">
-								<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/img/home/hero-banner2.png" style="height: 359;">
-							</div>
-						</div> -->
+					<div class="row no-gutters align-items-center pt-60px">
 						<div class="col-sm-7" style="color: #fff; padding: 50; margin-left: 50px; margin-top: 230;">
 							<div class="hero-banner__content">
 								<h4 style="font-weight: 600; color: #fff;">Люби себя.</h4>
 								<p style="font-size: 15px;">Свобода быть собой. Проявить свою уникальность, творить свой собственный мир. Понимать и принимать себя. Уважать и ценить других. Любить себя и любить жизнь. Мечтать и воплощать. Быть только мной. Открыто и искренне говорить миру - это я. It's Me.</p>
-								<a class="button button-hero" href="shop">ПОСМОТРЕТЬ</a>
+								<a class="button button-hero" href="https://www.instagram.com/me.myfreedom/">ПОСМОТРЕТЬ</a>
 							</div>
 						</div>
 					</div>
@@ -207,11 +181,6 @@
 							display: flex;
 						}
 
-						.huetaimg {
-							width: 50%;
-							margin-left: 300px;
-						}
-
 						.button_hueta {
 							color: #1f6655;
 							background-color: #fff;
@@ -233,7 +202,6 @@
 									<h3 style="color: #fff; font-weight: 600;">ПРОГРАММА ЛОЯЛЬНОСТИ!</h3>
 									<a class="button_hueta mt-3 mt-xl-4" href="#">ОЗНАКОМИТЬСЯ</a>
 								</div>
-								<!-- <img class="huetaimg" src="<?php bloginfo('template_directory') ?>/img/pngwing.png"> -->
 							</div>
 						</div>
 					</div>
@@ -241,72 +209,6 @@
 				</div>
 			</section>
 			<!-- ================ offer section end ================= --> 
-
-			<!-- ================ Blog section start ================= -->  
-			<!-- <section class="blog">
-				<div class="container">
-
-					<div class="section-intro pb-60px">
-						<p>Popular Item in the market</p>
-						<h2>Latest <span class="section-intro__style">News</span></h2>
-					</div>
-
-					<div class="row">
-						<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-							<div class="card card-blog">
-								<div class="card-blog__img">
-									<img class="card-img rounded-0" src="<?php bloginfo('template_directory') ?>/img/blog/blog1.png" alt="">
-								</div>
-								<div class="card-body">
-									<ul class="card-blog__info">
-										<li><a href="#">By Admin</a></li>
-										<li><a href="#"><i class="ti-comments-smiley"></i> 2 Comments</a></li>
-									</ul>
-									<h4 class="card-blog__title"><a href="single-blog.html">The Richland Center Shooping News and weekly shooper</a></h4>
-									<p>Let one fifth i bring fly to divided face for bearing divide unto seed. Winged divided light Forth.</p>
-									<a class="card-blog__link" href="#">Read More <i class="ti-arrow-right"></i></a>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-							<div class="card card-blog">
-								<div class="card-blog__img">
-									<img class="card-img rounded-0" src="<?php bloginfo('template_directory') ?>/img/blog/blog2.png" alt="">
-								</div>
-								<div class="card-body">
-									<ul class="card-blog__info">
-										<li><a href="#">By Admin</a></li>
-										<li><a href="#"><i class="ti-comments-smiley"></i> 2 Comments</a></li>
-									</ul>
-									<h4 class="card-blog__title"><a href="single-blog.html">The Shopping News also offers top-quality printing services</a></h4>
-									<p>Let one fifth i bring fly to divided face for bearing divide unto seed. Winged divided light Forth.</p>
-									<a class="card-blog__link" href="#">Read More <i class="ti-arrow-right"></i></a>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-							<div class="card card-blog">
-								<div class="card-blog__img">
-									<img class="card-img rounded-0" src="<?php bloginfo('template_directory') ?>/img/blog/blog3.png" alt="">
-								</div>
-								<div class="card-body">
-									<ul class="card-blog__info">
-										<li><a href="#">By Admin</a></li>
-										<li><a href="#"><i class="ti-comments-smiley"></i> 2 Comments</a></li>
-									</ul>
-									<h4 class="card-blog__title"><a href="single-blog.html">Professional design staff and efficient equipment you’ll find we offer</a></h4>
-									<p>Let one fifth i bring fly to divided face for bearing divide unto seed. Winged divided light Forth.</p>
-									<a class="card-blog__link" href="#">Read More <i class="ti-arrow-right"></i></a>
-								</div>
-							</div>
-						</div>
-						
-					</div>
-				</div>
-			</section> -->
-			<!-- ================ Blog section end ================= -->  
 
 			<!-- ================ Subscribe section start ================= --> 
 			<section class="subscribe-position">

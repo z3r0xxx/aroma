@@ -88,6 +88,17 @@
 							<div class="single-prd-item">
 								<img class="img-fluid" src="<?php the_post_thumbnail_url(); ?>" alt="">
 							</div>
+							<?php 
+
+								$attachment_ids = $product->get_gallery_image_ids();
+								foreach ( $attachment_ids as $attachment_id ) {
+									$full_src = wp_get_attachment_image_src( $attachment_id, 'full' );
+									echo '  <div class="single-prd-item">
+												<img class="img-fluid" src="' . $full_src[0] . '">
+											</div>';
+								}								
+
+							?>
 						</div>
 					</div>
 
@@ -263,7 +274,7 @@
 			<div class="container">
 
 				<ul class="nav nav-tabs" id="myTab" role="tablist">
-					<li class="nav-item"><a class="nav-link active" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review" aria-selected="false">Описание</a></li>
+					<li><a class="nav-link active" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review" aria-selected="false">Описание</a></li>
 					<!-- <li class="nav-item"><a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Характеристики</a></li> -->
 				</ul>
 
